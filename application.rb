@@ -40,14 +40,5 @@ def get_input
 	end
 end
 
-# def email_duplicated?(email)
-#   file = ContactDatabase.read_csv
-#   file.each do |row|
-#       row.each do |ele|
-#         unless ele.match(email)
-#       end
-#     end
-#   end
-# end
 
 get_input

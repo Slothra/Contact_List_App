@@ -14,7 +14,7 @@ class Contact
   ## Class Methods
   class << self
     def create(first_name, last_name, email)
-      if email_duplicated?(email)
+      if email_duplicated?(email) == true
         return puts "That Email already exists." 
       end
       name = create_name(first_name, last_name)
